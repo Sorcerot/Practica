@@ -1,0 +1,26 @@
+type: DoubleTurret
+name: Small Turret
+description: Sprays legs everywhere. What a kris-mess.
+health: 300
+size: 1
+reload: 4
+range: 125
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+rotatespeed: 15
+ammo: {
+  lead: {
+    speed: 3
+    damage: 25
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  lead/60
+  copper/70
+]
+category: turret
