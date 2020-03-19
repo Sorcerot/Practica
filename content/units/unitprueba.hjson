@@ -1,0 +1,25 @@
+type: flyingUnit
+name: prueba kamikaze
+description: Generally pipo
+speed: 0.3
+flying: true
+health: 2000
+engineOffset: 5.5
+range: 160
+weapon: {
+
+
+  length: 1.5
+  reload: 2
+  alternate: true
+  bullet: {
+  type: BasicBulletType
+  damage: 1
+  splashDamage: 5000
+  splashDamageRadius: 100
+  killShooter: true
+  speed: 5
+
+}
+  
+}
